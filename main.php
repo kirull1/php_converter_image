@@ -27,7 +27,6 @@
                 }
                 $res .= "\n";
             }
-            echo "\n\n\n\n".$res;
             if($type == 0) self::save_img($gd, $save); else return $res;
         }
 

@@ -8,7 +8,6 @@
             $this->checkdir('img');
             $this->checkdir('img/video');
             $this->checkdir('img/convert');
-
             $this->count = count(array_diff(scandir("img/video"), [".", ".."]));
         }
 

@@ -10,7 +10,7 @@ You may also need to configure your php (Enable GD module).
 
 Using
 -----
-# To split the video into parts.
+## To split the video into parts.
 ```php
     $video = new video('ffmpeg.exe');
     $video->get_img('file.mp4', 'img\video\img%d.jpg', 30);
